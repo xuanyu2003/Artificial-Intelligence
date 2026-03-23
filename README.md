@@ -8,7 +8,7 @@
 
 # week 3
 
-**Explain pretraining. What it i? What is result from pretraining** 
+**Explain pretraining. What it is? What is result from pretraining** 
 
 Pretraining is the process of training a language model on a very large amount of raw text data so it can learn the general structure of language, patterns, and knowledge.
 After pretraining, you get a base model.it might can answer Continue text
@@ -30,7 +30,7 @@ the number of symbols in a sequence (message).
 A sequence is a string of symbols (like bits, characters, or signals).
 The length simply counts how many symbols are in that sequence.
 
-2. Symbol size(Information per symbol)
+2.Symbol size(Information per symbol)
 The amount of information each symbol carries, usually measured in bits per symbol.
 
 
