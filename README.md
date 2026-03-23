@@ -22,3 +22,15 @@ Large amounts of text are collected (e.g., from the internet, books, and article
 2.Tokenization
 The text is converted into numerical tokens so the model can process it.
 3.Neutral network training 
+
+
+
+Explain terms sequence length and symbol size.
+1.Sequence Length(Quantity)
+the number of symbols in a sequence (message).
+
+A sequence is a string of symbols (like bits, characters, or signals).
+The length simply counts how many symbols are in that sequence.
+
+2. Symbol size(Information per symbol)
+The amount of information each symbol carries, usually measured in bits per symbol.
