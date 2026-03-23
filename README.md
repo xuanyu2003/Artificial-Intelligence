@@ -10,7 +10,7 @@
 
 **Explain pretraining. What it is? What is result from pretraining** 
 
-Pretraining is the process of training a language model on a very large amount of raw text data so it can learn the general structure of language, patterns, and knowledge.
+Pretraining is the process of training a language model on a very large amount of raw text data so it can learn the general structure of language, patterns, and knowledge.<br>
 After pretraining, you get a base model.it might can answer Continue text
 Generate paragraphs answer questions
 
