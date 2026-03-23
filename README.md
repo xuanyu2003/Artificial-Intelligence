@@ -34,3 +34,5 @@ The length simply counts how many symbols are in that sequence.
 
 2. Symbol size(Information per symbol)
 The amount of information each symbol carries, usually measured in bits per symbol.
+
+
