@@ -1,4 +1,8 @@
-# Artificial-Intelligence
+# Group 5
+Eaint    Mon    t3moea00@students.oamk.fi
+Xuanyu    Liu    t3lixu00@students.oamk.fi
+Yue    Chen    yuchen24@students.oamk.fi
+Ke    Zhang    kzhang24@students.oamk.fi
 
 # week 3
 
