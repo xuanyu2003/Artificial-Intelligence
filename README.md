@@ -6,7 +6,7 @@
 - Ke Zhang – kzhang24@students.oamk.fi  
 - Sitt Min – t3mith00@students.oamk.fi  
 
-# week 3
+# week 3 part 1
 
 **Explain pretraining. What it is? What is result from pretraining** 
 
