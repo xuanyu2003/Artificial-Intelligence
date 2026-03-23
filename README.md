@@ -8,9 +8,11 @@
 
 # week 3 part 1
 
+https://colab.research.google.com/drive/1LwDtJnD6BkjmSH1IV5PjnuQ-Irn9nJSJ?usp=sharing
+
 **Explain pretraining. What it is? What is result from pretraining** 
 
-<img width="879" height="353" alt="pretaining" src="https://github.com/user-attachments/assets/ea592659-fc8a-4fc1-b8df-675f09c9a674" />
+<img width="879" height="353" alt="pretaining" src="https://github.com/user-attachments/assets/ea592659-fc8a-4fc1-b8df-675f09c9a674" /><br>
 
 Pretraining is the process of training a language model on a very large amount of raw text data so it can learn the general structure of language, patterns, and knowledge.<br>
 After pretraining, you get a base model.it might can answer Continue text Generate paragraphs answer questions
