@@ -34,12 +34,14 @@ The length simply counts how many symbols are in that sequence.
 The amount of information each symbol carries, usually measured in bits per symbol.
 
 **Find out what is sequence length and symbol size with new LLMs today.**
+
 Sequence Length
 Modern LLMs use much longer sequences than older models. Typical ranges are 8K–32K tokens for common models and 100K–200K tokens for advanced models. A larger sequence length helps the model handle long texts and improves reasoning.
 Symbol Size (Vocabulary Size)
 A symbol is a token. Modern LLMs use about 30,000 to 100,000 tokens in their vocabulary.
 
 **Explain term context**
+
 Context means all the previous tokens in a sequence. The model uses this context to predict the next token. It reads tokens one by one, and each prediction depends on everything it has seen so far.
 
 
