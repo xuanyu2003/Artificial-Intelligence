@@ -33,7 +33,7 @@ The amount of information each symbol carries, usually measured in bits per symb
 
 **Explain why sequence length is critical source (this explanation is not very well stated in the video, you must probably search for other sources too)**
 
-We want to trade off between the symbols or vocabulary size and sequence length. With longer sequence and small vocabulary, it can lead to slower training execution time and memory usage with more computing power needed but it is able to understand linguistic nuances and context better. With shorter sequences and more vocabulary size, it reduces the number of steps that the model should take and can reduce costs so it is more efficient. Therefore, to achieve better precision or if specificity is the priority, it is better to have longer sequences. However, if efficiency and generalization is the key, then shorter sequence length is better.
+We want to trade off with the symbols or vocabulary size and sequence length. With longer sequence and small vocabulary, it can lead to slower training execution time and memory usage with more computing power needed but it is able to understand linguistic nuances and context better. With shorter sequences and more vocabulary size, it reduces the number of steps that the model should take and can reduce costs so it is more efficient. Therefore, sequence length is a critical source because it determines the balance between the model’s ability to understand complex context and the computational resources required for training.
 
 **Find out what is sequence length and symbol size with new LLMs today.**
 
