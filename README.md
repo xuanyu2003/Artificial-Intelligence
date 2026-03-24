@@ -58,9 +58,23 @@ Training is the learning phase of our model where our model is shown a lot of da
 
 Through the model, we get a probability distribution over possible tokens at each step. By sampling from this distribution, Karpathy means selecting a token randomly, where the likelihood of each token is weighted by its probability which similar to flipping a biased coin. This allows the model to produce more diverse outputs instead of always choosing the highest-probability token.
 
+**What is nano-GPT?**
+-Uses just a few hundred lines of Python 
+-Focuses only on the core transformer architecture
+-Lets you train your own small language model
+
+**Explain reasons why training cost of LLMs has been getting down**
+-Dataset quality has improved significantly, with better filtering and preprocessing allowing models to learn more efficiently from less data.
+-Hardware has become much faster, greatly reducing training time and cost.
+-Software frameworks such as PyTorch have improved, making training more efficient and reducing wasted computation.
+
 **Explain Karpathy’s GPT-2 model training example. What did you understood from it?**
 
 Karpathy explains that a neural network is just a giant mathematical expression that mixes input tokens with parameters (weights) using simple operations like multiplication and addition. Training means iteratively adjusting those parameters so the network gets better at predicting the next token, which you can see happening in real time by watching the loss number go down. Once training is done the weights are frozen and you switch to inference feeding tokens in and sampling the next token one at a time from the model's probability distribution, which is exactly what happens when you chat with ChatGPT. He uses GPT-2 as a concrete example, showing his live training run where each update processes 1 million tokens and takes ~7 seconds, needing 32,000 total steps on 8 H100 GPUs rented from the cloud all just to get good at that one task of predicting the next token.
 
-How much it took from Karpathy to train GPT-2 and what kind of equipment he used?
+**How much it took from Karpathy to train GPT-2 and what kind of equipment he used?**
+
 Karpathy took ＄672 and only one day to train GPT-2 on a 8xH100 node
+
+
+
