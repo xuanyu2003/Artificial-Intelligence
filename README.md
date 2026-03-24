@@ -48,5 +48,11 @@ A symbol is a token. Modern LLMs use about 30,000 to 100,000 tokens in their voc
 
 Context means all the previous tokens in a sequence. The model uses this context to predict the next token. It reads tokens one by one, and each prediction depends on everything it has seen so far.
 
+**Explain how neural network inference is different from training.**
 
+Training is the learning phase of our model where our model is shown a lot of data and it adjusts its weights to become better at predicting the next token. Inference is the generation of new data from the model that we trained during that training phase. We mainly want to see what patterns that our model has internalised in the parameters of its network. 
+
+**Explain what Karpathy means with sampling from a distribution or with biased coin.**
+
+Through the model, we get a probability distribution over possible tokens at each step. By sampling from this distribution, Karpathy means selecting a token randomly, where the likelihood of each token is weighted by its probability which similar to flipping a biased coin. This allows the model to produce more diverse outputs instead of always choosing the highest-probability token.
 
