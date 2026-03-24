@@ -48,7 +48,7 @@ A symbol is a token. Modern LLMs use about 30,000 to 100,000 tokens in their voc
 
 Context means all the previous tokens in a sequence. The model uses this context to predict the next token. It reads tokens one by one, and each prediction depends on everything it has seen so far.
 
-**Part 2 (Tuesday)**
+# Part 2 (Tuesday)
 
 **Explain how neural network inference is different from training.**
 
@@ -59,14 +59,16 @@ Training is the learning phase of our model where our model is shown a lot of da
 Through the model, we get a probability distribution over possible tokens at each step. By sampling from this distribution, Karpathy means selecting a token randomly, where the likelihood of each token is weighted by its probability which similar to flipping a biased coin. This allows the model to produce more diverse outputs instead of always choosing the highest-probability token.
 
 **What is nano-GPT?**
--Uses just a few hundred lines of Python 
--Focuses only on the core transformer architecture
--Lets you train your own small language model
+
+- Uses just a few hundred lines of Python 
+- Focuses only on the core transformer architecture
+- Lets you train your own small language model
 
 **Explain reasons why training cost of LLMs has been getting down**
--Dataset quality has improved significantly, with better filtering and preprocessing allowing models to learn more efficiently from less data.
--Hardware has become much faster, greatly reducing training time and cost.
--Software frameworks such as PyTorch have improved, making training more efficient and reducing wasted computation.
+
+- Dataset quality has improved significantly, with better filtering and preprocessing allowing models to learn more efficiently from less data.
+- Hardware has become much faster, greatly reducing training time and cost.
+- Software frameworks have improved, making training more efficient and reducing wasted computation.
 
 **Explain Karpathy’s GPT-2 model training example. What did you understood from it?**
 
