@@ -138,8 +138,12 @@ The tokenisation of the assistant model is by creating special new tokens that g
 Assistant training data is mainly created by humans who are hired to simulate ideal conversations between a user and an AI. These human labelers write prompts (questions or requests) and then craft high-quality responses following detailed guidelines such as being helpful, truthful, and safe. This produces datasets of example conversations that the model learns to imitate. In modern systems, this process is often augmented with other language models that help generate drafts of responses, which humans then review and refine. The final dataset is thus a mix of human-written and AI-assisted conversations, covering many topics and teaching the model how to behave like a helpful assistant.
 
 **How inference is now different when we have new tokens, within chatGPT?**
+In ChatGPT, inference works in an autoregressive manner, meaning tokens are generated one at a time. At each step, the model uses the current sequence to predict the next token, adds it to the context, and repeats the process.Each new token updates the context, so the model continuously re-evaluates the sequence.As noted by Andrej Karpathy, inference is a loop rather than a single pass.
 
 **When we are asking a question from chatGPT we are actually asking a question from domain experts. Is this true?**
+Not exactly. When we ask ChatGPT a question, we are interacting with a simulation of the average behavior of simulationed trained human labelers.
+The responses are shaped by human-labeled data and company-defined instructions.
+So the model reflects aligned answering behavior, not real domain experts.
 
 # Thursday
  
