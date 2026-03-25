@@ -99,6 +99,7 @@ Assistant model output :
 “5000 meters”
 
 **Why assistent model training is much shorter than base model**
+
 assistant models reuse most of the base model’s knowledge, so they only need a relatively small amount of additional training to become helpful, safe, and aligned.
 Assistant training is shorter because:
 
