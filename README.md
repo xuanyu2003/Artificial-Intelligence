@@ -86,6 +86,18 @@ A base model is trained on large amounts of raw text using unsupervised learning
 
 An assistant model, such as ChatGPT, is built on top of a base model and further improved through additional training. This includes instruction tuning, where the model learns to follow tasks and respond appropriately, and reinforcement learning from human feedback (RLHF), which helps make responses more helpful, accurate, and aligned with user expectations.
 
+Example:
+
+Prompt:
+Convert 5 km to meters.
+
+Base model output :
+“Kilometers are used in many countries and are part of the metric system…”
+→ Gives unrelated explanation instead of answer.
+
+Assistant model output :
+“5000 meters”
+
 **Why assistent model training is much shorter than base model**
 
 **Explain how assistent model is trained from base model, what is similar to TCP/IP protocol stack?**
