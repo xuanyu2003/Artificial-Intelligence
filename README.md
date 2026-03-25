@@ -112,7 +112,13 @@ Assistant training is shorter because:
 **Explain how assistent model is trained from base model, what is similar to TCP/IP protocol stack?**
 
 Because both systems build functionality layer by layer.
-<img width="949" height="423" alt="image" src="https://github.com/user-attachments/assets/f884ede8-0e84-4267-a4d2-4a73bf528197" />
+| AI Training Layer         | Similar TCP/IP Layer  | What it does                                          |
+| ------------------------- | --------------------- | ----------------------------------------------------- |
+| Base model pretraining    | Internet layer (IP)   | Core capability: move information (generate language) |
+| Supervised fine-tuning    | Transport layer (TCP) | Structured communication (instructions, conversation) |
+| Preference / RL alignment | Application layer     | User-friendly behavior and correct interaction        |
+| Safety tuning             | Application policies  | Rules for acceptable use                              |
+
 
 Key similarity:
 - Each layer depends on the lower layer
