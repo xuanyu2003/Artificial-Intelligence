@@ -121,7 +121,11 @@ Key similarity:
 
 **How assistent model is programmed?**
 
+Assistant model is programmed during the post-training after creating a base model from the pretraining stage where the base model is trained on massive amount of internet data. It is programmed by fine tuning the base model into conversation style structure and learning from example dialogues between human and assistant. It will be trained on the statistical conversation patterns rather than large standalone texts from the internet like an internet document simulator. 
+
 **Explain how assistent model training data is tokenized. I.e. how conversations are tokenized**
+
+The tokenisation of the assistant model is by creating special new tokens that gets introduced and interspersed with text to imply whose turn in the conversation between the user and assistant it is, the followup text and the end of their turn to show the boundary between messages. This is how the conversations get turned by some encoding into one dimensional sequences of tokens.
 
 **Explain how assistent training data is obtained.**
 
