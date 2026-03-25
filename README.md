@@ -111,6 +111,11 @@ Assistant training is shorter because:
 
 **Explain how assistent model is trained from base model, what is similar to TCP/IP protocol stack?**
 
+Key similarity:
+- Each layer depends on the lower layer
+- You don’t rebuild the base each time
+- You add capabilities without changing the foundation too much
+
 **How assistent model is programmed?**
 
 **Explain how assistent model training data is tokenized. I.e. how conversations are tokenized**
