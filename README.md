@@ -8,7 +8,7 @@
 
 # week 3 part 1
 
-https://colab.research.google.com/drive/1LwDtJnD6BkjmSH1IV5PjnuQ-Irn9nJSJ?usp=sharing
+[https://colab.research.google.com/drive/1yxVNUEtX52c1bKT0RYJFX_ZbLdzgVqr3?usp=sharing]
 
 **Explain pretraining. What it is? What is result from pretraining** 
 
