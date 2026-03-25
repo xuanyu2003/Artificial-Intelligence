@@ -26,13 +26,13 @@ The text is converted into numerical tokens so the model can process it.<br>
 
 **Explain terms sequence length and symbol size** 
 
-1.Sequence Length(Quantity)
+- Sequence Length(Quantity)
 the number of symbols in a sequence (message).
 
 A sequence is a string of symbols (like bits, characters, or signals).
 The length simply counts how many symbols are in that sequence.
 
-2.Symbol size(Information per symbol)
+- Symbol size(Information per symbol)
 The amount of information each symbol carries, usually measured in bits per symbol.
 
 **Explain why sequence length is critical source (this explanation is not very well stated in the video, you must probably search for other sources too)**
@@ -99,6 +99,13 @@ Assistant model output :
 “5000 meters”
 
 **Why assistent model training is much shorter than base model**
+assistant models reuse most of the base model’s knowledge, so they only need a relatively small amount of additional training to become helpful, safe, and aligned.
+Assistant training is shorter because:
+
+- It updates fewer parameters significantly (often small adjustments)
+- It uses much less data
+- It doesn’t require learning language from scratch
+- It focuses on narrow objectives (alignment, not knowledge)
 
 **Explain how assistent model is trained from base model, what is similar to TCP/IP protocol stack?**
 
