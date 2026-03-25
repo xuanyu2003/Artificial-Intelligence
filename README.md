@@ -129,6 +129,8 @@ The tokenisation of the assistant model is by creating special new tokens that g
 
 **Explain how assistent training data is obtained.**
 
+Assistant training data is mainly created by humans who are hired to simulate ideal conversations between a user and an AI. These human labelers write prompts (questions or requests) and then craft high-quality responses following detailed guidelines such as being helpful, truthful, and safe. This produces datasets of example conversations that the model learns to imitate. In modern systems, this process is often augmented with other language models that help generate drafts of responses, which humans then review and refine. The final dataset is thus a mix of human-written and AI-assisted conversations, covering many topics and teaching the model how to behave like a helpful assistant.
+
 **How inference is now different when we have new tokens, within chatGPT?**
 
 **When we are asking a question from chatGPT we are actually asking a question from domain experts. Is this true?**
