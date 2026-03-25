@@ -80,6 +80,9 @@ Karpathy took ＄672 and only one day to train GPT-2 on a 8xH100 node
 
 # Wednesday
 
+**GPT-2 117M base model test**
+https://colab.research.google.com/drive/1Aqf7s3V4pRmSdY7yE0QFqLfSE2tjlFuJ?usp=sharing
+
 **Explain difference between base model and assistent model**
 
 A base model is trained on large amounts of raw text using unsupervised learning. Its main objective is to predict the next word or token in a sequence. As a result, it generates text based on statistical patterns in the data rather than true understanding of meaning or intent.<br>
