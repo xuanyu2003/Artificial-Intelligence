@@ -6,7 +6,7 @@
 - Ke Zhang – kzhang24@students.oamk.fi  
 - Sitt Min – t3mith00@students.oamk.fi  
 
-# week 3 Monday
+# Week 3 Monday
 
 we made our own LLM model:[https://colab.research.google.com/drive/1yxVNUEtX52c1bKT0RYJFX_ZbLdzgVqr3?usp=sharing]
 
@@ -78,5 +78,19 @@ Karpathy explains that a neural network is just a giant mathematical expression 
 
 Karpathy took ＄672 and only one day to train GPT-2 on a 8xH100 node
 
+# Wednesday
 
+**Explain what model hallucination means.**
+
+**Explain why model hallucinates**
+
+**What kind of mitigations there are to improve model behaviour on hallunications?**
+
+**How model is trained to use tools like web-search?**
+
+**Explain the difference between vaque recollection and working memory**
+
+**What are difficult problems for model, why?**
+
+**What happens if you give model a permission to use code**
 
