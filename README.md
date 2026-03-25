@@ -150,6 +150,22 @@ Not exactly. When we ask ChatGPT a question, we are interacting with a simulatio
 The responses are shaped by human-labeled data and company-defined instructions.
 So the model reflects aligned answering behavior, not real domain experts.
 
+**Tiktokeniser exercise**
+| Token ID | Text           |
+| -------- | -------------- |
+| 200264   | " How"         |
+| 1428     | " far"         |
+| 200266   | " is"          |
+| 5299     | " sun"         |
+| 4150     | "?"            |
+| 382      | " Very"        |
+| 28479    | " far"         |
+| 30       | "."            |
+| 200265   | "\n" (newline) |
+| 200264   | " How"         |
+| 173781   | " far"         |
+
+
 # Thursday
  
 **Explain what model hallucination means.**
