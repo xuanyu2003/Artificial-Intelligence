@@ -80,6 +80,24 @@ Karpathy took ＄672 and only one day to train GPT-2 on a 8xH100 node
 
 # Wednesday
 
+**Explain difference between base model and assistent model**
+
+**Why assistent model training is much shorter than base model**
+
+**Explain how assistent model is trained from base model, what is similar to TCP/IP protocol stack?**
+
+**How assistent model is programmed?**
+
+**Explain how assistent model training data is tokenized. I.e. how conversations are tokenized**
+
+**Explain how assistent training data is obtained.**
+
+**How inference is now different when we have new tokens, within chatGPT?**
+
+**When we are asking a question from chatGPT we are actually asking a question from domain experts. Is this true?**
+
+# Thursday
+ 
 **Explain what model hallucination means.**
 
 **Explain why model hallucinates**
