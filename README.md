@@ -82,6 +82,10 @@ Karpathy took ＄672 and only one day to train GPT-2 on a 8xH100 node
 
 **Explain difference between base model and assistent model**
 
+A base model is trained on large amounts of raw text using unsupervised learning. Its main objective is to predict the next word or token in a sequence. As a result, it generates text based on statistical patterns in the data rather than true understanding of meaning or intent.<br>
+
+An assistant model, such as ChatGPT, is built on top of a base model and further improved through additional training. This includes instruction tuning, where the model learns to follow tasks and respond appropriately, and reinforcement learning from human feedback (RLHF), which helps make responses more helpful, accurate, and aligned with user expectations.
+
 **Why assistent model training is much shorter than base model**
 
 **Explain how assistent model is trained from base model, what is similar to TCP/IP protocol stack?**
