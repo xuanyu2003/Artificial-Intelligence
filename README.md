@@ -6,9 +6,9 @@
 - Ke Zhang – kzhang24@students.oamk.fi  
 - Sitt Min – t3mith00@students.oamk.fi  
 
-# week 3 part 1
+# week 3 Monday
 
-[https://colab.research.google.com/drive/1yxVNUEtX52c1bKT0RYJFX_ZbLdzgVqr3?usp=sharing]
+we made our own LLM model:[https://colab.research.google.com/drive/1yxVNUEtX52c1bKT0RYJFX_ZbLdzgVqr3?usp=sharing]
 
 **Explain pretraining. What it is? What is result from pretraining** 
 
@@ -48,7 +48,7 @@ A symbol is a token. Modern LLMs use about 30,000 to 100,000 tokens in their voc
 
 Context means all the previous tokens in a sequence. The model uses this context to predict the next token. It reads tokens one by one, and each prediction depends on everything it has seen so far.
 
-# Part 2 (Tuesday)
+# Tuesday
 
 **Explain how neural network inference is different from training.**
 
