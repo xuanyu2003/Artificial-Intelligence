@@ -9,7 +9,7 @@
 # Week 3 Monday
 
 **we made our own LLM model**<br>
-[https://colab.research.google.com/drive/1yxVNUEtX52c1bKT0RYJFX_ZbLdzgVqr3?usp=sharing]
+https://colab.research.google.com/drive/1yxVNUEtX52c1bKT0RYJFX_ZbLdzgVqr3?usp=sharing
 
 **Explain pretraining. What it is? What is result from pretraining** 
 
