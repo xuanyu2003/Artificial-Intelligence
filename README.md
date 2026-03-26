@@ -200,7 +200,7 @@ After that, the results are inserted back into the context window, the model con
 
 **Explain the difference between vaque recollection and working memory**
 
-Knowledge stored inside the model’s parameters is described as vague recollection. This means the model has a general, approximate memory of information, similar to how a person might remember something they read a long time ago. It is not exact or always reliable. In contrast, working memory refers to the context window—the text that is currently given to the model in the prompt. This information is clear, precise, and directly available, allowing the model to use it more accurately when generating answers.
+Knowledge stored inside the model’s parameters is described as vague recollection. This means the model has a general, approximate memory of information, similar to how a person might remember something they read a long time ago. It is not exact or always reliable. In contrast, working memory refers to the context window - the text that is currently given to the model in the prompt. This information is clear, precise, and directly available, allowing the model to use it more accurately when generating answers.
 
 **What are difficult problems for model, why?**
 
