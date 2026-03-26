@@ -200,7 +200,7 @@ Model hallucination happens because AI models predicts likely words instead of s
 
 4. Train the model on high-quality data with human feedback (e.g., OpenAI).
 
-5. 
+5. Ask for Sources. Require the model to provide evidence for its answers.
 
 **How model is trained to use tools like web-search?**
 
