@@ -64,6 +64,8 @@ Context means all the previous tokens in a sequence. The model uses this context
 
 # Tuesday
 
+Kari's trained token simulator - https://colab.research.google.com/drive/1EL9WwtWnX_NGb8C6zWfuBUJWWw9jveri?usp=sharing
+
 **Explain how neural network inference is different from training.**
 
 Training is the learning phase of our model where our model is shown a lot of data and it adjusts its weights to become better at predicting the next token. Inference is the generation of new data from the model that we trained during that training phase. We mainly want to see what patterns that our model has internalised in the parameters of its network. 
