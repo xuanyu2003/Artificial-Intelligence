@@ -171,6 +171,21 @@ So the model reflects aligned answering behavior, not real domain experts.
  
 **Explain what model hallucination means.**
 
+Model hallucination happens when an AI gives an answer that sounds correct and confident, but is actually wrong or made up. For example, it might invent facts, sources, or details that don’t exist. This occurs because AI models don’t truly “understand” information the way humans do. Instead, they generate responses by predicting what words are most likely to come next based on patterns they learned from large amounts of text during training.
+
+```text
+=== Prompt ===
+Who wrote the book "The History of Mars Colonies"?
+
+=== Base model output ===
+“It was written by Dr. Emily Carter and published in 2018 by Oxford Press…”
+→ Hallucinated details; no such book or author exists
+
+=== Assistant model output ===
+“I’m not aware of any book by that title; it may not exist.”
+→ Correctly indicates lack of information without making up facts
+```````
+
 **Explain why model hallucinates**
 
 **What kind of mitigations there are to improve model behaviour on hallunications?**
