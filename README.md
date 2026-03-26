@@ -188,6 +188,8 @@ Who wrote the book "The History of Mars Colonies"?
 
 **Explain why model hallucinates**
 
+Model hallucination happens because AI models predicts likely words instead of storing facts, so it gives confident answers even when unsure. It can also occur because of training data limits—data may be incomplete, outdated, or unclear. Other reasons include vague or unclear questions, the model trying to sound helpful, and missing real-time fact-checking.
+
 **What kind of mitigations there are to improve model behaviour on hallunications?**
 
 **How model is trained to use tools like web-search?**
