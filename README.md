@@ -46,6 +46,7 @@ The length simply counts how many symbols are in that sequence (not how much inf
 | Binary (0,1)           | 2               | 1 bit/symbol       |
 | Decimal digits (0–9)   | 10              | log₂(10) ≈ 3.32 bits/symbol |
 | ASCII characters       | 256             | 8 bits/symbol      |
+
 The amount of information each symbol carries, usually measured in bits per symbol （how much information each symbol can encode) .
 
 **Explain why sequence length is critical source (this explanation is not very well stated in the video, you must probably search for other sources too)**
