@@ -238,6 +238,6 @@ It gives the model permission to use a tool like Python code to come up with an 
 
 <img width="601" height="254" alt="image" src="https://github.com/user-attachments/assets/7f2d13d7-3c1a-42c0-af5a-db35bf0e53b7" />
 
-The right answer is better because in the left, the answer directly jumps to the result while the right answer shows a step-by-step implementation of the calculation to come to the answer so the computation is spread out throughout the answer. By Andrej’s statement, it means that for models, reasoning and thinking like coming up with an answer to a mathematics question needs tokens with computation power. The answer is generated token by token so through more steps, it gives the model more opportunity to work through coming up with the a more accurate answer instead of using just one token with limited computation power to come up with an answer immediately.
+The right answer is better because in the left, the answer directly jumps to the result while the right answer shows a step-by-step implementation of the calculation to come to the answer so the computation is spread out throughout the tokens to come to the answer. By Andrej’s statement, it means that for models, reasoning and thinking like coming up with an answer to a mathematics question needs tokens with computation power. The answer is generated token by token so through more steps, it gives the model more opportunity to work through coming up with the a more accurate answer instead of using just one token with limited computation power to come up with an answer immediately.
 
 
