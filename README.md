@@ -8,7 +8,8 @@
 
 # Week 3 Monday
 
-we made our own LLM model:[https://colab.research.google.com/drive/1yxVNUEtX52c1bKT0RYJFX_ZbLdzgVqr3?usp=sharing]
+**we made our own LLM model**<br>
+[https://colab.research.google.com/drive/1yxVNUEtX52c1bKT0RYJFX_ZbLdzgVqr3?usp=sharing]
 
 **Explain pretraining. What it is? What is result from pretraining** 
 
@@ -64,7 +65,8 @@ Context means all the previous tokens in a sequence. The model uses this context
 
 # Tuesday
 
-Kari's trained token simulator - https://colab.research.google.com/drive/1EL9WwtWnX_NGb8C6zWfuBUJWWw9jveri?usp=sharing
+**Kari's trained token simulator**<br>
+https://colab.research.google.com/drive/1EL9WwtWnX_NGb8C6zWfuBUJWWw9jveri?usp=sharing
 
 **Explain how neural network inference is different from training.**
 
@@ -96,7 +98,7 @@ Karpathy took ＄672 and only one day to train GPT-2 on a 8xH100 node
 
 # Wednesday
 
-**GPT-2 117M base model test**
+**GPT-2 117M base model test**<br>
 https://colab.research.google.com/drive/1Aqf7s3V4pRmSdY7yE0QFqLfSE2tjlFuJ?usp=sharing
 
 **Explain difference between base model and assistent model**
