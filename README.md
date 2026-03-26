@@ -153,17 +153,18 @@ So the model reflects aligned answering behavior, not real domain experts.
 **Tiktokeniser exercise**
 | Token ID | Text           |
 | -------- | -------------- |
-| 200264   | " How"         |
-| 1428     | " far"         |
-| 200266   | " is"          |
-| 5299     | " sun"         |
-| 4150     | "?"            |
-| 382      | " Very"        |
-| 28479    | " far"         |
-| 30       | "."            |
-| 200265   | "\n" (newline) |
-| 200264   | " How"         |
-| 173781   | " far"         |
+| 200264   | "<im_start>"   |
+| 1428     | "user"         |
+| 200266   | "<im_sep>"     |
+| 5299     | "How"          |
+| 4150     | " far"         |
+| 382      | " is"          |
+| 28479    | " moon"        |
+| 30       | "?"            |
+| 200265   | "<im_end>"     |
+| 173781   | "assistant"    |
+| 1437     | "very"         |
+| 7334     | "sun"          |
 
 
 # Thursday
