@@ -26,14 +26,27 @@ The text is converted into numerical tokens so the model can process it.<br>
 
 **Explain terms sequence length and symbol size** 
 
-- Sequence Length(Quantity)
+1. Sequence Length(Quantity)
+
 the number of symbols in a sequence (message).
 
-A sequence is a string of symbols (like bits, characters, or signals).
-The length simply counts how many symbols are in that sequence.
+| Sequence        | Symbols | Sequence Length |
+|----------------|--------|-----------------|
+| 10110          | bits   | 5               |
+| HELLO          | letters| 5               |
+| [3, 7, 2, 9]   | numbers| 4               |
 
-- Symbol size(Information per symbol)
-The amount of information each symbol carries, usually measured in bits per symbol.
+A sequence is a string of symbols (like bits, characters, or signals).
+The length simply counts how many symbols are in that sequence (not how much information it contains) .
+
+2. Symbol size(Information per symbol)
+
+| Symbol Set              | Possible Values | Symbol Size        |
+|------------------------|-----------------|--------------------|
+| Binary (0,1)           | 2               | 1 bit/symbol       |
+| Decimal digits (0–9)   | 10              | log₂(10) ≈ 3.32 bits/symbol |
+| ASCII characters       | 256             | 8 bits/symbol      |
+The amount of information each symbol carries, usually measured in bits per symbol （how much information each symbol can encode) .
 
 **Explain why sequence length is critical source (this explanation is not very well stated in the video, you must probably search for other sources too)**
 
