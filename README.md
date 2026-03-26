@@ -192,6 +192,12 @@ Model hallucination happens because AI models predicts likely words instead of s
 
 **What kind of mitigations there are to improve model behaviour on hallunications?**
 
+1. Tell the model exactly what to do.
+
+- Be specific
+- Ask it to not guess
+- Allow it to say “I don’t know”
+
 **How model is trained to use tools like web-search?**
 
 A model is trained to use tools like web search by learning to emit special tokens.
