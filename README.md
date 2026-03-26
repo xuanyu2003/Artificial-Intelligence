@@ -182,7 +182,7 @@ So the model reflects aligned answering behavior, not real domain experts.
 | 200265   | "<im_end>"     |
 | 173781   | "assistant"    |
 | 1437     | "very"         |
-| 7334     | "sun"          |
+| 7334     | " sun"         |
 
 
 # Thursday
