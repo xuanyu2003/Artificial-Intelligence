@@ -232,3 +232,12 @@ The model finds it difficult to answer questions about information it does not c
 
 **What happens if you give model a permission to use code**
 
+It gives the model permission to use a tool like Python code to come up with an answer to our question instead of using the model’s own knowledge. Models could lead to mistakes or arithmetic mistakes if they are not trained in detail for reasoning so using codes could allow it to come up with a more accurate answer.
+
+**Which one of the answers below is better to the model? What Andrej meant with :” Models need tokens to think”**
+
+<img width="601" height="254" alt="image" src="https://github.com/user-attachments/assets/7f2d13d7-3c1a-42c0-af5a-db35bf0e53b7" />
+
+The right answer is better because in the left, the answer directly jumps to the result while the right answer shows a step-by-step implementation of the calculation to come to the answer so the computation is spread out throughout the answer. By Andrej’s statement, it means that for models, reasoning and thinking like coming up with an answer to a mathematics question needs tokens with computation power. The answer is generated token by token so through more steps, it gives the model more opportunity to work through coming up with the a more accurate answer instead of using just one token with limited computation power to come up with an answer immediately.
+
+
