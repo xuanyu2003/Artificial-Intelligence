@@ -198,8 +198,6 @@ A model is trained to use tools like web search by learning to emit special toke
 During generation, the model can produce something like <SEARCH_START> query <SEARCH_END>, When <SEARCH_END> is detected，the model pauses generation, and the query is sent to a search engine (e.g., Bing), then the retrieved results are collected.
 After that, the results are inserted back into the context window, the model continues generating the response.
 
-In essence, the model learns when to call tools and how to use their outputs within its context.
-
 **Explain the difference between vaque recollection and working memory**
 
 **What are difficult problems for model, why?**
