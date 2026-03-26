@@ -192,7 +192,7 @@ Model hallucination happens because AI models predicts likely words instead of s
 
 **What kind of mitigations there are to improve model behaviour on hallunications?**
 
-1. Tell the model exactly what to do. Give clear instructions and tell the model not to guess.
+1. Tell the model exactly what to do. Give clear instructions and tell the model not to guess. Let the model express confidence or say “I don’t know”.
 
 2. Check the answer before using it. Ask the model to verify its own answer or use external tools (search, database).
 
